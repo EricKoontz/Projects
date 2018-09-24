@@ -1,0 +1,108 @@
+	
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblInsuranceCompany,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblInsuranceCompanyValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblInsurancePolicy,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblInsurancePolicyValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblBusinessExpirationDate,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblBusinessExpirationDateValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblBusinessNumber,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblBusinessNumberValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTitle,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTitleValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblContactType,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblContactTypeValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTelephone1,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTelephone1Value,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTelephone2,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTelephone2Value,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeFAX,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeFAXValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeEmail,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeEmailValue, 
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl00_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl01_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl02_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl03_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl04_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl05_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl06_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl07_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl08_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl09_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl10_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl11_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl12_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl13_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl14_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl15_fileSelected_btnBrowser_container
+{
+display:none;
+}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl01_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl02_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl03_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl04_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl05_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl06_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl07_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl08_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl09_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl10_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl11_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl12_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl13_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl14_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl15_fileSelected_removeButtonPanel{padding-left:40px};
+{
+display:none;
+}
+/*added by jjackson*/
+/*Remove features from ACA Screens*/
+#ctl00_PlaceHolderMain_divTrustAccount,/*My Account*/
+#ctl00_PlaceHolderMain_divLicense,/*My Account*/
+/*Start Medical Cannabis*/
+#ctl00_PlaceHolderMain_Contact3_23749Edit_btnAddNew_container,/*Medical Cannabis Owner Submittal Contact 3 Business Owner*/
+#ctl00_PlaceHolderMain_Contact3_23658Edit_btnAddFromSaved_container,/*Type M10 - Dispensary Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23469Edit_btnAddNew, /*Type M10 - Dispensary Application Applicant Owner Applicant*/
+#ctl00_PlaceHolderMain_Contact3_23837Edit_btnAddFromSaved_container, /*Type 8 - Testing Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23838Edit_btnAddNew, /*Type 8 - Testing Application Applicant Owner Applicant*/
+#ctl00_PlaceHolderMain_Contact3_23828Edit_btnAddFromSaved_container, /*Type M10A - Dispensary Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23829Edit_btnAddNew, /*Type M10A - Dispensary Application Applicant Owner Applicant*/
+#ctl00_PlaceHolderMain_Contact3_23827Edit_btnAddFromSaved_container, /*Type M11 - Distribution Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23848Edit_btnAddNew, /*Type M11 - Distribution Application Applicant Owner Applicant*/
+#ctl00_PlaceHolderMain_Contact3_23818Edit_btnAddFromSaved_container, /*Type M12 - Transporter Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23819Edit_btnAddNew, /*Type M12 - Transporter Application Applicant Owner Applicant*/
+/*End Medical Cannabis*/
+/*Start Adult-Use Cannabis*/
+#ctl00_PlaceHolderMain_Contact3_23749Edit_btnAddNew_container,/*Adult-Use Cannabis Owner Submittal Contact 3 Business Owner*/
+#ctl00_PlaceHolderMain_Contact3_23859Edit_btnAddFromSaved_container,/*Type A10 - Retailer Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23860Edit_btnAddNew, /*Type A10 - Retailer Application Applicant Owner Applicant*/
+#ctl00_PlaceHolderMain_Contact3_23894Edit_btnAddFromSaved_container, /*Type A10A - Dispensary Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23895Edit_btnAddNew, /*Type A10A - Dispensary Application Applicant Owner Applicant*/
+#ctl00_PlaceHolderMain_Contact3_23864Edit_btnAddFromSaved_container, /*Type A11 - Distribution Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23865Edit_btnAddNew, /*Type A11 - Distribution Application Applicant Owner Applicant*/
+#ctl00_PlaceHolderMain_Contact3_23874Edit_btnAddFromSaved_container, /*Type A12 - Microbusiness Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23875Edit_btnAddNew, /*Type A12 - Microbusiness Application Applicant Owner Applicant*/
+#ctl00_PlaceHolderMain_Contact3_23798Edit_btnAddFromSaved_container, /*Type A8 - Testing Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Applicant_23799Edit_btnAddNew, /*Type A8 - Testing Application Applicant Owner Applicant*/
+/*End Adult-Use Cannabis*/
+/*Start Remove Default Condition Document verbiage and use Instructional Text instead*/
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_lblTypeIntroduction,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_lblSizeIntroduction
+/*End Remove Default Condition Document verbiage and use Instructional Text instead*/
+{
+display: none;
+}
+/*Bold Borders for all Data Fields*/
+.ACA_Form input[type=text] 
+{ border:1px solid #000!important }
+.ACA_Form select
+{ border:1px solid #000!important }
+.ACA_Form textarea
+{ border:1px solid #000!important }
+.ACA_Form text
+{ border:1px solid #000!important }
+.ACA_Form input
+{ border:1px solid #000!important }
+/*End Bold Borders for all Data Fields*/
+/*end by jjackson*/

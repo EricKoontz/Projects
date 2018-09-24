@@ -1,0 +1,251 @@
+/* get rid of header nav options
+#ctl00_HeaderNavigation_divNavigation  {display:none;} 
+#ctl00_HeaderNavigation_divMenu, #gsContainer {display:none;}
+*/
+
+/* get rid of collections */
+#ctl00_HeaderNavigation_lblMyCollection {display:none;}
+
+/* don't need the account type in ACA account mgmt  */
+#ctl00_PlaceHolderMain_acc_manage_label_AccountType {display:none;}
+#ctl00_PlaceHolderMain_lblAccountType {display:none; }
+#divAccountManager .ACA_Title_Bar {display:none; }
+#divAccountBar .ACA_Title_Bar {display:block; }
+#divContactBar .ACA_Title_Bar {display:block; }
+
+/* increase default font sizes */
+.ACA_ItemCenter ACA_ItemCenter_FontSize ACA_CenterOn {font-size: 14px !important; }
+#ctl00_PlaceHolderMain_CapList1_gdvPermitList_gdvPermitListtop4btnExport {font-size: 13px !important; }
+#ctl00_PlaceHolderMain_CapList1_gdvPermitList_gdvPermitListtop4btnAddCollection {font-size: 13px !important; }
+#ctl00_PlaceHolderMain_CapList1_gdvPermitList_gdvPermitListtop4btnAppendToCart {font-size: 13px !important; }
+.aca_gridview_caption {font-size: 14px !important; }
+.ACA_NaviTitle {font-size: 13px !important; }
+.ACA_Page_FontSize {font-size: 12px !important; }
+.aca_gridview_caption { font-size: 12px !important; }
+.search-sub-menu   {font-size: 12px !important; }
+.ACA_SubMenuList  {font-size: 12px !important; border-bottom: 2px solid #23a8e5 !important; background-color: lightblue !important; }
+.ServiceListContainer, .ServiceListGroupName { font-size: 1.2em; }
+.ACA_GridView {font-size: 12px; }
+.breadcrump-table { font-size: 1.1em; }
+.ACA_Label { font-size: 14px; } 
+.ACA_Sub_Label_FontSize { font-size: 13px; }
+.ACA_Section_Instruction_FontSize { font-size: 13px; }
+.ACA_Page_Instruction_FontSize { font-size: 13px; }
+#ctl00_PlaceHolderMain_per_permitReg_label_indicate { font-size: 1.2em;}
+.ACA_Section_Instruction ACA_Section_Instruction_FontSize {    color: #666666 !important;
+	font-family: MuseoSans, Sans-Serif, CalciteWebCoreIcons !important;
+	font-weight: normal !important;
+}
+
+/* add the nice border on the page flows: 
+.ACA_Area_CapEdit, .ACA_Title_Bar {border-bottom: 2px solid #1F2F45;}
+*/
+.ACA_Title_Bar {border-bottom: 2px solid #23a8e5 !important;
+		background: lightblue !important;     
+		padding: 4px !important;}
+
+/* get rid of ASI Spacers  */
+div[id*="_sepForASIT"] {
+	display : none;
+}
+
+/* collection link on record review */
+#ctl00_PlaceHolderMain_lblAddCap2Collection { display:none; } 
+
+/* fix search menu that is different style */
+#submenu_link_3 .NotShowLoading {    font-size: 1.3em !important;vertical-align: bottom !important;font-weight: 500 !important; color: #1F2F45;text-decoration: none; }
+
+/* can't make the rememberme large, so keep these all the same size 
+#ctl00_PlaceHolderMain_LoginBox_divRegisterAccount {font-size: 12px; }
+#ctl00_PlaceHolderMain_LoginBox_divForgotPassword {font-size: 12px; }
+#ctl00_PlaceHolderMain_LoginBox_acc_sign_label_rememberMe {font-size: 12px !important; }
+*/
+
+/* hide the ugly section headers */
+.ACA_Title_Text { display: none; } /* duplicate section headers */
+.ACA_Tabrow i { display:none; }  /* duplicate section headers */
+div[id^="ctl00_PlaceHolderMain_AppSpecTable"] > div:nth-child(1) > h1 > i { display:none; }
+
+/* use up some more real estate */
+.DisclaimerContainerStyle { width : 100%; height: 30em; }
+/*
+.ACA_TDAlignLeftOrRightTop {width: 100%;}
+
+/* hide the ugly breadcrumb */
+.breadcrump-pagetitle { display:none; } 
+
+
+/* Widen ASI sections */
+
+/*
+.ACA_ASI_Container table[role="presentation"]{
+	   width: 100% !important;
+	}
+.ACA_ASI_Container table[role="presentation"] > td {
+	   width: 95% !important;
+	}
+*/
+
+table[id^="ctl00_PlaceHolderMain_AppSpec"] { width : 100% !important; }
+table[id*="_element_group"] { width : 100% !important; }
+table[id*="_element_group"] > tbody > tr:nth-child(2) > td > table { width : 100% !important; }
+table[id*="_element_group"] > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > table { width : 100% !important; }
+table[id*="_element_group"] > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) {     width : 75% !important; } 
+           
+/* get rid of receipt and "no address" labels */
+#ctl00_PlaceHolderMain_lblReceiptTitle { display: none; }
+/*
+#ctl00_PlaceHolderMain_addressList_ctl00_lblAddress { display: none; }
+*/
+
+/* Work around IE document upload bug */
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButton a:hover span { padding: 10px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButton a span { padding: 10px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButtonForRight a span { padding: 10px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButton a { padding-left: 0px !important; padding-right: 0px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButtonForRight a { padding-left: 0px !important; padding-right: 0px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButtonDisable a { padding-left: 0px !important; padding-right: 0px !important;}
+
+
+/* get rid of Licensee  */
+div[id*="ctl00_PlaceHolderMain_licenseeGeneralInfo_lbl"] {
+	display : none;
+}
+
+/*
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblInsuranceCompany,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblInsuranceCompanyValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblInsurancePolicy,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblInsurancePolicyValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblBusinessExpirationDate,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblBusinessExpirationDateValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblBusinessNumber,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblBusinessNumberValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTitle,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTitleValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblContactType,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblContactTypeValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTelephone1,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTelephone1Value,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTelephone2,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeTelephone2Value,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeFAX,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeFAXValue,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeEmail,
+#ctl00_PlaceHolderMain_licenseeGeneralInfo_lblLicenseeEmailValue, 
+*/
+
+/* get rid of ugly button on condition document  */
+div[id*="_fileSelected_btnBrowser_container"] {
+	display : none;
+}
+
+/* get rid of ugly button on condition document  */
+div[id*="_fileSelected_removeButtonPanel"] {
+	display : none;
+}
+/*
+
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl00_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl01_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl02_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl03_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl04_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl05_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl06_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl07_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl08_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl09_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl10_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl11_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl12_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl13_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl14_fileSelected_btnBrowser_container,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl15_fileSelected_btnBrowser_container
+{
+display:none;
+}
+
+
+
+_fileSelected_removeButtonPanel
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl01_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl02_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl03_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl04_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl05_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl06_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl07_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl08_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl09_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl10_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl11_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl12_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl13_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl14_fileSelected_removeButtonPanel,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument_ctl15_fileSelected_removeButtonPanel{padding-left:40px};
+{
+display:none;
+}
+/*Added by jjackson*/
+/*Start Remove features from ACA Screens*/
+#ctl00_PlaceHolderMain_divTrustAccount,/*My Account*/
+#ctl00_PlaceHolderMain_divLicense,/*My Account*/
+/*End Remove features from ACA Screens*/
+/*Start Hide the "Select from Account" button for Business Contact */
+/*Start Medical Cannabis*/
+#ctl00_PlaceHolderMain_Contact3_24640Edit_btnAddFromSaved_container, /*Type M10 - Retailer Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Contact3_25616Edit_btnAddFromSaved_container, /*Type M11 - Distributor Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Contact3_24672Edit_btnAddFromSaved_container, /*Type M12 - Microbusiness Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Contact3_25700Edit_btnAddFromSaved_container, /*Type M9 - Retailer Nonstorefront Application Contact 3 Business*/
+/*End Medical Cannabis*/
+/*Start Adult-Use Cannabis*/
+#ctl00_PlaceHolderMain_Contact3_25629Edit_btnAddFromSaved_container, /*Type A10 - Retailer Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Contact3_25659Edit_btnAddFromSaved_container, /*Type A11 - Distributor Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Contact3_25691Edit_btnAddFromSaved_container, /*Type A12 - Microbusiness Application Contact 3 Business*/
+#ctl00_PlaceHolderMain_Contact3_25648Edit_btnAddFromSaved_container, /*Type A9 - Retailer Nonstorefront Application Contact 3 Business*/
+/*End Adult-Use Cannabis*/
+/*Start Universial Cannabis*/
+#ctl00_PlaceHolderMain_Contact3_25682Edit_btnAddNew_container, /*Cannabis Owner Submittal Contact 3 Business Owner*/
+#ctl00_PlaceHolderMain_Contact3_23961Edit_btnAddFromSaved_container, /*Type 8 - Testing Application Contact 3 Business*/
+/*End Universial Cannabis*/
+/*Start Incomplete Contact Information*/
+#ctl00_PlaceHolderMain_Contact3_25248Edit_btnAddFromSaved_container, /*Incomplete Contact Information*/
+/*End Incomplete Contact Information*/
+/*End Hide the "Select from Account" button for Business Contact */
+
+/*Start Remove Default Condition Document verbiage and use Instructional Text instead*/
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_lblTypeIntroduction,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_lblSizeIntroduction
+/*End Remove Default Condition Document verbiage and use Instructional Text instead*/
+{
+display: none;
+}
+/* Start Recalculate Link*/
+#ctl00_PlaceHolderMain_capFeeList_lnkRecalculate,
+#ctl00_PlaceHolderMain_capFeeList_lnkRecalculate_container
+{
+display: none;
+}
+/*End Recalculate Link */
+/*Start Bold Borders for all Data Fields*/
+.ACA_Form input[type=text] 
+{ border:1px solid #000!important }
+.ACA_Form select
+{ border:1px solid #000!important }
+.ACA_Form textarea
+{ border:1px solid #000!important }
+.ACA_Form text
+{ border:1px solid #000!important }
+.ACA_Form input
+{ border:1px solid #000!important }
+/*End Bold Borders for all Data Fields*/
+/*End by jjackson*/
+
+/*Start Pay Fee Due Link on Anonymous User Search*/
+#ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList_ctl14_btnFeeStatus 
+{
+display: none;
+}
+/*End Pay Fee Due Link on Anonymous User Search*/
+ 
