@@ -1,0 +1,2 @@
+// Begin script 2219
+include("COMMERCIAL_CHECK_FOR_CONTACT_WITH_LAB");
