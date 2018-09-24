@@ -1,0 +1,106 @@
+<!--FORMSCRIPT-->
+<div id="iz-custom-js">
+    $(function(){ $("#includedHeader").load("http://www.bcc.ca.gov/clear/bcc_header.html");
+    }); $('div.BUSINESS_NAME:empty').hide(); $('div.NAME_FML:empty').hide();
+    $('div.ADDRESS_LINE1:empty').hide(); $('div.ADDRESS_LINE2:empty').hide();
+    $('div.ADDRESS_LINE3:empty').hide(); $('div.ADDRESS_CSZ:empty').hide();
+</div>
+<!--FORMSCRIPT-->
+<!-- link to common CSS for CLeAR reports-->
+<link href="http://www.bcc.ca.gov/clear/support_reports.css"
+rel="stylesheet">
+<!-- link to common Header for CLeAR reports-->
+<div id="includedHeader">
+</div>
+<table style="width: 100%;" data-mce-selected="1">
+    <tbody>
+        <tr>
+            <td class="BCCNormal" style="width: 10%;">
+            </td>
+            <td class="BCCNormal" style="width: 40%;">
+            </td>
+            <td align="right" class="BCCBold" style="width: 40%;">
+                Application ID: [RECORD_ID]
+            </td>
+            <td class="BCCNormal" style="width: 10%;">
+            </td>
+        </tr>
+        <tr>
+            <td class="BCCNormal" style="width: 10%;">
+            </td>
+            <td align="left" valign="top" colspan="2">
+                <p>
+                    [Date]
+                </p>
+                <div id="BUSINESS_NAME">
+                    [BUSINESS_NAME]
+                </div>
+                <div id="NAME_FML">
+                    [NAME_FML#]
+                </div>
+                <div id="ADDRESS_LINE1">
+                    [ADDRESS_LINE1]
+                </div>
+                <div id="ADDRESS_LINE2">
+                    [ADDRESS_LINE2]
+                </div>
+                <div id="ADDRESS_CSZ">
+                    [CITY], [STATE_] [ZIP]
+                </div>
+                <br>
+                <br>
+                RE: Acknowledgment of Receipt of Application/Fees
+                <br>
+                <br>
+                <br>
+                Dear Ms./Mr. [NAME_LAST]:
+                <p style="text-align: justify;">
+                    This letter is to acknowledge the Bureau has received your application
+                    and fees for a [RECORD_TYPE] license. Please visit
+                    <a href="http://www.bcc.ca.gov">www.bcc.ca.gov</a>
+                    to register and create a user account to use all the services the Bureau
+                    provides and view your application. You will receive an email and/or letter
+                    specifying any required documentation and/or information that was not included
+                    with your application.
+                    <br>
+                    <br>
+                    Once your application is assigned and reviewed you will be provided with
+                    any additional information required to complete the application process
+                    and the name of the licensing analyst assigned to process your application.
+                    <br>
+                    <br>
+                    Please be aware all applications are processed in date order or following
+                    priority review pursuant to Business and Professions Code section 26054.2,
+                    115.4 and 115.5. If you meet one of the priority requirements, please submit
+                    evidence to support the requirements via mail or email at:
+                    <br>
+                    <br>
+                    <br>
+                </p>
+                <p style="margin-left: 40px;">
+                    BCC Address
+                    <br>
+                    BCC email box for Licensing.
+                </p>
+                <br>
+                <br>
+                Sincerely,
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                Bureau of Cannabis Control
+                <br>
+                <br>
+                cc: [NAME_FML#]
+                <p>
+                </p>
+            </td>
+            <td class="BCCNormal" style="width: 10%;">
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+</p>

@@ -1,0 +1,86 @@
+<!--FORMSCRIPT-->
+<div id="iz-custom-js">
+    $('div.bizname:empty').hide(); $('div.ownername:empty').hide(); $("#conditionexists").hide();
+    $("#reglicense").hide(); $("#provlicense").hide(); if ($.trim($("#conditionexists").html()).indexOf("Provisional")
+    &gt; 0) { $("#provlicense").show(); } else { $("#reglicense").show(); }
+    if ($("#ActivitySubReport").html().indexOf("No Results") &gt; 0) { $("#ActivitySubReport").hide();
+    }
+</div>
+<!--FORMSCRIPT-->
+<link href="https://dl.dropboxusercontent.com/s/9v0yipr0416cqqb/support_reports.css"
+rel="stylesheet">
+<table class="mce-item-table" style="width: 100%;" data-mce-selected="1">
+    <tbody>
+        <tr>
+            <td class="BCCNormal" style="width: 50%;">
+                <img width="380" height="76" src="http://www.bcc.ca.gov/images/logo.png">
+            </td>
+            <td align="right" class="BCCNormal">
+                <div class="const-bcc-agency">
+                </div>
+                <div class="const-bcc-url">
+                </div>
+                <div class="const-bcc-phone">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="top" colspan="2">
+                <center>
+                    <div style='font-family: "Arial Black", sans-serif; font-size: 18pt;'>
+                        <br>
+                        [RECORD_TYPE]
+                    </div>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="top" colspan="2">
+                <div style='background-position: top; margin: 30px 0px 0px -120px; left: 50%; width: 240px; height: 240px; font-family: "Arial Black", sans-serif; font-size: 16pt; position: absolute; z-index: -1; opacity: 0.7; background-image: url("http://bcc.ca.gov/images/accela/sealofcalifornia.gif"); background-repeat: no-repeat; background-size: 100%;'>
+                </div>
+                <br>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td style='width: 50%; font-family: "Arial Black", sans-serif; font-size: 16pt;'>
+                LICENSE NO:
+                <br>
+                [TEMPLATE_ID]
+                <br>
+                <br>
+                LEGAL BUSINESS NAME:
+                <br>
+                [RECORD_NAME]
+                <br>
+                <br>
+                PREMISE:
+                <br>
+                [ADDR_PARTIAL]
+                <br>
+                [CITY], [STATE_] [ZIP]
+                <br>
+                <br>
+            </td>
+            <td align="right" valign="top" style='width: 50%; font-family: "Arial Black", sans-serif; font-size: 16pt;'>
+                VALID:
+                <br>
+                [DATE_OPENED]
+                <br>
+                <br>
+                EXPIRES:
+                <br>
+                [DATE_EXPIRATION]
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td class="BCCNormal" valign="top" style="width: 50%; border-top-color: rgb(205, 208, 212); border-top-width: 1px; border-top-style: solid;">
+                <i>Non-Transferable</i>
+            </td>
+            <td align="right" class="BCCNormal" valign="top" style="width: 50%; border-top-color: rgb(205, 208, 212); border-top-width: 1px; border-top-style: solid;">
+                <i>Prominently display this license <br> as required by Title 16 CCR § 5039 <br></i>
+            </td>
+        </tr>
+    </tbody>
+</table>

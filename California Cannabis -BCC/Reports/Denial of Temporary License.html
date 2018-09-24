@@ -1,0 +1,87 @@
+<!--FORMSCRIPT-->
+<div id="iz-custom-js">
+    $(function(){ $("#includedHeader").load("http://www.bcc.ca.gov/clear/bcc_header.html");
+    }); $('div.BUSINESS_NAME:empty').hide(); $('div.NAME_FML:empty').hide();
+    $('div.ADDRESS_LINE1:empty').hide(); $('div.ADDRESS_LINE2:empty').hide();
+    $('div.ADDRESS_LINE3:empty').hide(); $('div.ADDRESS_CSZ:empty').hide();
+</div>
+<!--FORMSCRIPT-->
+<!-- link to common CSS for CLeAR reports-->
+<link href="http://www.bcc.ca.gov/clear/support_reports.css"
+rel="stylesheet">
+<!-- link to common Header for CLeAR reports-->
+<div id="includedHeader">
+</div>
+<div class="letter">
+    <p align="right" class="BCCNormal">
+        CLEaR Record: [TEMPLATE_ID]
+    </p>
+    <p class="BCCNormal">
+        <p>
+            [Date]
+            <br>
+        </p>
+        <div id="BUSINESS_NAME">
+            [RECORD_NAME]
+        </div>
+        <div id="NAME_FML">
+            [NAME_FML#]
+        </div>
+        <div id="ADDRESS_LINE1">
+            [ADDRESS_LINE1]
+        </div>
+        <div id="ADDRESS_LINE2">
+            [ADDRESS_LINE2]
+        </div>
+        <div id="ADDRESS_CSZ">
+            [ADDRESS_CITY], [ADDRESS_STATE] [ADDRESS_ZIP]
+        </div>
+        <br>
+        <br>
+        RE: Denial of Temporary License
+        <br>
+        <br>
+        Dear Ms./Mr. [NAME_LAST]:
+        <p style="text-align: justify;">
+            We received your request for [RECORD_TYPE] Temporary License. After review
+            of your application and documentation we have concluded you do not qualify
+            for a temporary license but your application will be continued through
+            regular processing for a permanent license.
+            <br>
+            <br>
+            Pursuant to Business and Professions Code section 26050.1 (b) (3) you
+            are not entitled to a hearing or appeal of this matter.
+            <br>
+            <br>
+            To continue through the regular process, you will need to submit and/or
+            provide additional information as specified below:
+            <br>
+            <p style="text-align: justify; margin-right: 40px; margin-left: 40px;">
+			<b>[COMMENTS]</b>
+			</p>
+        </p>
+        <p style="text-align: justify;">
+            Your application is not complete until you have provided all the items(s)
+            identified above.
+            <br>
+            <br>
+            If you have any questions regarding this matter, please contact me at
+            my email address [EMAIL] or by telephone at [PHONE].
+            <br>
+            <br>
+        </p>
+        Sincerely,
+        <br>
+        <br>
+        <br>
+        [NAME_DISTINGUISHED]
+        <br>
+        [DEPARTMENT]
+        <br>
+        Bureau of Cannabis Control
+        <br>
+        <br>
+        cc: [NAME_FML#]
+        <p>
+        </p>
+</div>

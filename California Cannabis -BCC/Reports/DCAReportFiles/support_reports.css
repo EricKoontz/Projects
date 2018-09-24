@@ -1,0 +1,116 @@
+/*===========================================
+BCC Styles
+*/
+
+body {
+    font-family: Arial, san-serif;
+}
+
+.BCCGovernor {
+	color: #3366FF;
+    font-size: 6.0pt;
+}
+.BCCHeader {
+    font-size: 9.0pt;
+}
+.BCCNormal {
+    font-size: 12.0pt;
+}
+.BCCSmall {
+    font-size: 10.0pt;
+}
+.BCCHyperlink {
+    font-size: 10.0pt;
+	color: blue;
+	text-decoration: underline;
+}
+.BCCBold {
+    font-family: "Arial Black", sans-serif;
+    font-size: 12pt;
+}
+
+.BCCBigBold {
+    font-family: "Arial Black", sans-serif;
+    font-size: 16pt;
+}
+.letter {
+    margin-left: 20px;
+	margin-right: 20px;
+}
+
+.logocontainer {  position: relative; }
+
+.logocontainer:before {
+    content: "";
+    background-image: url('http://www.bcc.ca.gov/images/accela/seal.gif');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 50%;
+    opacity: 0.30;
+    position: absolute;
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	margin: -70px 0 0 -170px;
+}
+
+.logocontent {
+    position: relative; 
+    z-index: 2;
+}​
+
+
+/*==============================================
+Standard Text for BCC Headers/Footers
+*/
+.const-bcc-agency span {
+    display: none;
+}
+.const-bcc-agency:after {
+    content: 'Bureau of Cannabis Control';
+}
+.const-bcc-address span {
+    display: none;
+}
+.const-bcc-address:after {
+    content: 'P.O. Box 138200';
+}
+.const-bcc-address span {
+    display: none;
+}
+.const-bcc-address:after {
+    content: 'P.O. Box 138200';
+}
+.const-bcc-citystatezip span {
+    display: none;
+}
+.const-bcc-citystatezip:after {
+    content: 'Sacramento, CA 95813-8200';
+}
+.const-bcc-phone span {
+    display: none;
+}
+.const-bcc-phone:after {
+    content: '(800) 952-5210';
+}
+.const-aca-owner-url span {
+    display: none;
+}
+.const-aca-owner-url:after {
+    content: 'http://aca.accela.com/go_get_an_owner.aspx';
+}
+.const-owner-paper-form span {
+    display: none;
+}
+.const-owner-paper-form:after {
+    content: 'wwww.dca.gov/go/get/an/owner/application.pdf';
+}
+.const-livescan-url span {
+    display: none;
+}
+.const-livescan-url:after {
+    content: 'wwww.livescan.com/go/get/your/stuff.aspx';
+}
+

@@ -1,0 +1,267 @@
+/* bigger fonts on registration instructions */
+#ctl00_PlaceHolderMain_lblContactTitle_sub_label > font { font-size:16px;}
+
+/* bigger fonts on summary */
+#ctl00_PlaceHolderMain_lblPermitType {
+    font-size: 1.5em;
+}
+div[id*="_genericTemplate_templateFieldsList_"] { font-size: 12px; }
+
+/* Fix instruction text spacing */
+#ctl00_PlaceHolderMain_lblPageInstruction {    line-height: 2 !important; }
+
+
+/* widen ASI fields on summary */
+.ACA_SmLabelBolder { width: 60% !important; }
+
+/* remove condition document group name, unnecessary */
+#spanConditionGrop, #spanSplit { display:none; }
+
+/* make the text controls nicer user story 2273 */
+.ACA_Form textarea,
+.ACA_Form input[type=text],
+.ACA_Form input[type=password],
+.ACA_Form select {
+  border: 1px solid #E6E6E6;
+  padding-left: 6px;
+  color: #464646;
+  margin-bottom: 8px;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.ACA_Form select {
+    background-image: url(/BCC/customization/BCC/images/dropdown-arrow-bb.png);} #civicInsight {
+	position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -400px;
+    margin-top: -300px;
+	width: 1000px;
+	height: 600px;
+	overflow: hidden;
+}	
+
+.ACA_Grid_OverFlow .ACA_GridView {
+    width: 99% !important;
+}
+/* fix duplicated help logo */
+.aca_checkbox .ACA_Help_Icon { padding-top: 0px !important; }
+
+/* temporary fix for double file upload remove when cagov.core.css is upated*/
+input[type="file"] {
+  display: none !important;
+}
+
+.nav_bar_container {
+    display: table !important;
+}
+
+.header {display: none; } /* get rid of scrollbar on record list */
+#ctl00_PlaceHolderMain_PermitList_gdvPermitList, #ctl00_PlaceHolderMain_CapList1_gdvPermitList, #ctl00_PlaceHolderMain_AnnouncementListComponent_gdvAnnouncementList {
+    width: 99% !important;
+}
+
+/* get rid of document upload type restrictions */
+[id^="ctl00_PlaceHolderMain_Attachment_"][id*="Edit_lblTypeIntroduction"] 
+{display:none;}
+/* get rid of header nav options
+#ctl00_HeaderNavigation_divNavigation  {display:none;} 
+#ctl00_HeaderNavigation_divMenu, #gsContainer {display:none;}
+*/
+
+/* get rid of collections */
+#ctl00_HeaderNavigation_lblMyCollection {display:none;}
+
+/* don't need the account type in ACA account mgmt  */
+#ctl00_PlaceHolderMain_acc_manage_label_AccountType {display:none;}
+#ctl00_PlaceHolderMain_lblAccountType {display:none; }
+#divAccountManager .ACA_Title_Bar {display:none; }
+#divAccountBar .ACA_Title_Bar {display:block; }
+#divContactBar .ACA_Title_Bar {display:block; }
+
+/* hide document label in review */
+#divConditionDocumentEdit > div > div.ACA_Section_Instruction.ACA_Section_Instruction_FontSize {display:none;}
+
+/* fix width of record link in receipt page */
+#ctl00_PlaceHolderMain_addressList_ctl00_agenciesList_ctl00_capsList > tbody > tr > td > table > tbody > tr:nth-child(1) > td:nth-child(2) { width: 20%;}
+
+/* hide multiple receipt buttons */
+#ctl00_PlaceHolderMain_ReportBtn_divPrintReceipt,
+#ctl00_PlaceHolderMain_addressList_ctl00_agenciesList_ctl00_capsList > tbody > tr > td > table > tbody > tr:nth-child(1) > td:nth-child(5) > div
+	 {display:none;}
+	
+/* increase default font sizes */
+.ACA_ItemCenter ACA_ItemCenter_FontSize ACA_CenterOn {font-size: 14px !important; }
+#ctl00_PlaceHolderMain_CapList1_gdvPermitList_gdvPermitListtop4btnExport {font-size: 13px !important; }
+#ctl00_PlaceHolderMain_CapList1_gdvPermitList_gdvPermitListtop4btnAddCollection {font-size: 13px !important; }
+#ctl00_PlaceHolderMain_CapList1_gdvPermitList_gdvPermitListtop4btnAppendToCart {font-size: 13px !important; }
+.aca_gridview_caption {font-size: 14px !important; }
+.ACA_NaviTitle {font-size: 13px !important; }
+.ACA_Page_FontSize {font-size: 12px !important; }
+.aca_gridview_caption { font-size: 12px !important; }
+.search-sub-menu   {font-size: 12px !important; }
+.ACA_SubMenuList  {font-size: 12px !important; border-bottom: 2px solid !important; } 
+.ServiceListContainer, .ServiceListGroupName { font-size: 1.2em; }
+.ACA_GridView {font-size: 12px; }
+.breadcrump-table { font-size: 1.1em; }
+.ACA_Label { font-size: 14px; } 
+.ACA_Sub_Label_FontSize { font-size: 13px; }
+.ACA_Section_Instruction_FontSize { font-size: 13px; }
+.ACA_Page_Instruction_FontSize { font-size: 13px; }
+#ctl00_PlaceHolderMain_per_permitReg_label_indicate { font-size: 1.2em;}
+.ACA_Section_Instruction ACA_Section_Instruction_FontSize {    font-family: MuseoSans, Sans-Serif, CalciteWebCoreIcons !important;
+	font-weight: normal !important;
+}
+
+/* add the nice border on the page flows: 
+.ACA_Area_CapEdit, .ACA_Title_Bar {border-bottom: 2px solid #1F2F45;}
+*/
+.ACA_Title_Bar {border-bottom: 2px solid !important;
+		padding: 4px !important;}
+
+/* get rid of ASI Spacers  */
+div[id*="_sepForASIT"] {
+	display : none;
+}
+
+/* collection link on record review */
+#ctl00_PlaceHolderMain_lblAddCap2Collection { display:none; } 
+
+/* fix search menu that is different style */
+#submenu_link_3 .NotShowLoading {    font-size: 1.3em !important;vertical-align: bottom !important;font-weight: 500 !important; text-decoration: none; }
+
+/* can't make the rememberme large, so keep these all the same size 
+#ctl00_PlaceHolderMain_LoginBox_divRegisterAccount {font-size: 12px; }
+#ctl00_PlaceHolderMain_LoginBox_divForgotPassword {font-size: 12px; }
+#ctl00_PlaceHolderMain_LoginBox_acc_sign_label_rememberMe {font-size: 12px !important; }
+*/
+
+/* hide the ugly section headers */
+.ACA_Title_Text { display: none; } /* duplicate section headers */
+.ACA_Tabrow i { display:none; }  /* duplicate section headers */
+div[id^="ctl00_PlaceHolderMain_AppSpecTable"] > div:nth-child(1) > h1 > i { display:none; }
+
+/* use up some more real estate */
+.DisclaimerContainerStyle { width : 100%; height: 30em; }
+/*
+.ACA_TDAlignLeftOrRightTop {width: 100%;}
+
+/* hide the ugly breadcrumb */
+.breadcrump-pagetitle { display:none; } 
+
+
+/* Widen ASI sections */
+table[id^="ctl00_PlaceHolderMain_AppSpec"] { width : 100% !important; }
+table[id*="_element_group"] { width : 100% !important; }
+table[id*="_element_group"] > tbody > tr:nth-child(2) > td > table { width : 100% !important; }
+table[id*="_element_group"] > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > table { width : 100% !important; }
+table[id*="_element_group"] > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) {     width : 90% !important; } 
+
+        
+/* get rid of receipt and "no address" labels */
+#ctl00_PlaceHolderMain_lblReceiptTitle { display: none; }
+/*
+#ctl00_PlaceHolderMain_addressList_ctl00_lblAddress { display: none; }
+*/
+
+/* Work around IE document upload bug */
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButton a:hover span { padding: 10px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButton a span { padding: 10px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButtonForRight a span { padding: 10px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButton a { padding-left: 0px !important; padding-right: 0px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButtonForRight a { padding-left: 0px !important; padding-right: 0px !important;}
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_gdvRequiredDocument .ACA_LgButtonDisable a { padding-left: 0px !important; padding-right: 0px !important;}
+
+/* Start change all calendar buttons gray */
+[id*="_calendar_button"], [id*="_help"], [id*="$ddl"]   {
+	 -webkit-filter: grayscale(100%); filter: grayscale(100%);}
+/* End change all calendar buttons gray */
+
+/* get rid of Licensee  */
+div[id*="ctl00_PlaceHolderMain_licenseeGeneralInfo_lbl"] {
+	display : none;
+}
+
+/* get rid of ugly button on condition document  */
+div[id*="_fileSelected_btnBrowser_container"] {
+	display : none;
+}
+
+/* get rid of ugly button on condition document  */
+div[id*="_fileSelected_removeButtonPanel"] {
+	display : none;
+}
+
+/*Added by jjackson*/
+/*Start Remove features from ACA Screens*/
+#ctl00_PlaceHolderMain_divTrustAccount,/*My Account*/
+#ctl00_PlaceHolderMain_divLicense,/*My Account*/
+/*End Remove features from ACA Screens*/
+/*Start Hide the "Select from Account" button for Business Contact */
+div[id^="ctl00_PlaceHolderMain_Contact3_"][id*="Edit_btnAddFromSaved_container"] 
+{ 
+display: none;
+}  
+/*End Hide the "Select from Account" button for Business Contact */
+
+/*Start Remove Default Condition Document verbiage and use Instructional Text instead*/
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_lblTypeIntroduction,
+#ctl00_PlaceHolderMain_ConditionDocumentEdit_lblSizeIntroduction,
+#ctl00_PlaceHolderMain_Attachment_24610Edit_lblTypeIntroduction,
+#ctl00_PlaceHolderMain_Attachment_24610_lblTypeIntroduction /*Enforcement Review Screen*/
+{
+display: none;
+}
+/*End Remove Default Condition Document verbiage and use Instructional Text instead*/
+
+/* Start Recalculate Link, fee notes*/
+#ctl00_PlaceHolderMain_capFeeList_lnkRecalculate,
+#ctl00_PlaceHolderMain_capFeeList_lnkRecalculate_container,
+#ctl00_PlaceHolderMain_capFeeList_per_feeItemList_textl_totalFeeNote,
+#ctl00_PlaceHolderMain_lblTotalFeeNote
+{
+display: none;
+}
+/*End Recalculate Link */
+
+
+/*Start Pay Fee Due Link on Anonymous User Search*/
+#ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList_ctl14_btnFeeStatus 
+{
+display: none;
+}
+/*End Pay Fee Due Link on Anonymous User Search*/
+
+/*Start Fix ASI Licensing Fee Determination Verbiage Layout*/	
+/*#divAppSpecDD2B12BEView > div.ACA_TabRow.ACA_SmLabel.ACA_SmLabel_FontSize.ACA_Overflow > div.ACA_FLeft.ACA_SmLabelBolder {width: 60% !important; padding:10px !important;} */
+/*End Fix ASI Licensing Fee Determination Verbiage Layout*/
+
+/*Start View Receipt Per Record Type Issue*/ 
+#ctl00_PlaceHolderMain_addressList_ctl00_agenciesList_ctl00_capsList_ctl00_hlCAPReceipt, 
+#ctl00_PlaceHolderMain_addressList_ctl01_agenciesList_ctl00_capsList_ctl00_hlCAPReceipt, 
+#ctl00_PlaceHolderMain_addressList_ctl02_agenciesList_ctl00_capsList_ctl00_hlCAPReceipt, 
+#ctl00_PlaceHolderMain_addressList_ctl03_agenciesList_ctl00_capsList_ctl00_hlCAPReceipt, 
+#ctl00_PlaceHolderMain_addressList_ctl04_agenciesList_ctl00_capsList_ctl00_hlCAPReceipt 
+{
+display: none;
+} 
+/*End View Receipt Per Record Type Issue*/
+/*End by jjackson*/
+ 
+/* Start remove login welcome stuff */
+#ctl00_PlaceHolderMain_divTopShoppingCartItems,
+#ctl00_PlaceHolderMain_areaLoggedIn { display : none; }
+#ctl00_PlaceHolderMain_divWelcomeText { margin:0px !important ; padding:0px !important;}
+/* End remove login welcome stuff */
+
+/* defect 2564 */
+#ctl00_PlaceHolderMain_divGSASITResult > table > tbody > tr + tr { display:none }

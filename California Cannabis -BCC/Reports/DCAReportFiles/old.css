@@ -1,0 +1,44 @@
+ p.MsoNormal
+ {margin-bottom:.0001pt;
+ font-size:12.0pt;
+ font-family:"Arial",sans-serif;
+ margin-left: 0in;
+ margin-right: 0in;
+ margin-top: 0in;
+}
+.auto-style1 {
+ font-family: "Arial Black", sans-serif;
+ font-size: 12pt;
+}
+.auto-style3 {
+ font-family: "Arial Black", sans-serif;
+ font-size: 16pt;
+}
+.auto-style2 {
+ text-align: right;
+}
+.headercontainer {  position: relative; }
+
+.headercontainer:before {
+    content: "";
+    background-image: url('https://cdn2.iconfinder.com/data/icons/usa-state-seals/48/JD-05-256.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 50%;
+    opacity: 0.2;
+    position: absolute;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+ top: 50%;
+  left: 50%;
+
+  margin: -70px 0 0 -170px;
+   
+}
+
+.headercontent {
+    position: relative; 
+    z-index: 2;
+
+}​

@@ -1,0 +1,91 @@
+<!--FORMSCRIPT-->
+<div id="iz-custom-js">
+    $(function(){ $("#includedHeader").load("http://www.bcc.ca.gov/clear/bcc_header.html");
+    }); $('div.BUSINESS_NAME:empty').hide(); $('div.NAME_FML:empty').hide();
+    $('div.ADDRESS_LINE1:empty').hide(); $('div.ADDRESS_LINE2:empty').hide();
+    $('div.ADDRESS_LINE3:empty').hide(); $('div.ADDRESS_CSZ:empty').hide();
+</div>
+<!--FORMSCRIPT-->
+<!-- link to common CSS for CLeAR reports-->
+<link href="http://www.bcc.ca.gov/clear/support_reports.css"
+rel="stylesheet">
+<!-- link to common Header for CLeAR reports-->
+<div id="includedHeader">
+</div>
+<div class="letter">
+    <p align="right" class="BCCNormal">
+        Record Number: [TEMPLATE_ID]
+    </p>
+    <p class="BCCNormal">
+    </p>
+    <p>
+        [Date]
+        <br>
+    </p>
+    <div id="BUSINESS_NAME">
+        [RECORD_NAME]
+    </div>
+    <div id="NAME_FML">
+        [NAME_FML#]
+    </div>
+    <div id="ADDRESS_LINE1">
+        [ADDRESS_LINE1]
+    </div>
+    <div id="ADDRESS_LINE2">
+        [ADDRESS_LINE2]
+    </div>
+    <div id="ADDRESS_CSZ">
+        [ADDRESS_CITY], [ADDRESS_STATE] [ADDRESS_ZIP]
+    </div>
+    <br>
+    <br>
+    RE: Denial of [RECORD_TYPE] License
+    <br>
+    <br>
+    Dear Ms./Mr. [NAME_LAST]:
+    <p style="text-align: justify;">
+        We received your request for [RECORD_TYPE] License. After review of your
+        application and documentation we have concluded you do not qualify for
+        a [RECORD_TYPE] license therefore your application is denied pursuant to
+        Business and Professions Code section 26057.
+        <br>
+        <br>
+        You failed to submit and/or provide additional information as specified
+        below:
+        <br>
+    </p>
+    <p style="text-align: justify; margin-right: 40px; margin-left: 40px;">
+        <b>[COMMENTS]</b>
+    </p>
+    <p>
+    </p>
+    <p style="text-align: justify;">
+        You have the right to file a petition to request a hearing of the denial
+        of your application within 30 days from the of the service of the denial
+        notification.
+        <br>
+        <br>
+        Please be aware your application fee is an earned fee and nonrefundable.
+        <br>
+        <br>
+        If you have any questions regarding this matter, please contact me at
+        my email address [EMAIL] or by telephone at [PHONE].
+        <br>
+        <br>
+    </p>
+    Sincerely,
+    <br>
+    <br>
+    <br>
+    [NAME_DISTINGUISHED]
+    <br>
+    [DEPARTMENT]
+    <br>
+    Bureau of Cannabis Control
+    <br>
+    <br>
+    cc: [NAME_FML#]
+    <p>
+    </p>
+</div>
+<span style="page-break-after: always;">&nbsp;</span>

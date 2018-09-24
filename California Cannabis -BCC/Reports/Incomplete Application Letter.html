@@ -1,0 +1,93 @@
+<!--FORMSCRIPT-->
+<div id="iz-custom-js">
+    $(function(){ $("#includedHeader").load("http://www.bcc.ca.gov/clear/bcc_header.html");
+    }); $('div.BUSINESS_NAME:empty').hide(); $('div.NAME_FML:empty').hide();
+    $('div.ADDRESS_LINE1:empty').hide(); $('div.ADDRESS_LINE2:empty').hide();
+    $('div.ADDRESS_LINE3:empty').hide(); $('div.ADDRESS_CSZ:empty').hide();
+    $('.comments:empty').parent().hide();
+</div>
+<!--FORMSCRIPT-->
+<!-- link to common CSS for CLeAR reports-->
+<link href="http://www.bcc.ca.gov/clear/support_reports.css"
+rel="stylesheet">
+<!-- link to common Header for CLeAR reports-->
+<div id="includedHeader">
+</div>
+<div class="letter">
+    <p align="right" class="BCCNormal">
+        Application #: [TEMPLATE_ID]
+        <br>
+        Type of Application:&nbsp;[RECORD TYPE SUBTYPE]
+    </p>
+    <p class="BCCNormal">
+    </p>
+    <p>
+        [Date]
+        <br>
+    </p>
+    <div id="NAME_FML">
+        [NAME_FML#]
+    </div>
+    <div id="BUSINESS_NAME">
+        [RECORD_NAME]
+    </div>
+    <div id="ADDRESS_LINE1">
+        [ADDRESS_LINE1]
+    </div>
+    <div id="ADDRESS_LINE2">
+        [ADDRESS_LINE2]
+    </div>
+    <div id="ADDRESS_CSZ">
+        [ADDRESS_CITY], [ADDRESS_STATE] [ADDRESS_ZIP]
+    </div>
+    <br>
+    <br>
+    Dear Ms./Mr. [NAME_LAST]:
+    <p style="text-align: justify;" data-mce-style="text-align: justify;">
+        The Bureau of Cannabis Control is unable to process your application for
+        a [RECORD_TYPE] because it is incomplete. The Bureau needs the following
+        information to complete the review and process of your application.
+        <br>
+        <br>
+    </p>
+    <div class="commentblock" style="text-align: justify; margin-right: 40px; margin-left: 40px;"
+    data-mce-style="text-align: justify; margin-right: 40px; margin-left: 40px;">
+        GENERAL COMMENTS
+        <br>
+        <br>
+        <p>
+        </p>
+        <div class="comments" style="font-weight: bold;" data-mce-style="font-weight: bold;">
+            [COMMENTS]
+        </div>
+        <br>
+        <br>
+    </div>
+    <p style="text-align: justify; margin-right: 40px; margin-left: 40px;"
+    data-mce-style="text-align: justify; margin-right: 40px; margin-left: 40px;">
+        [[Subreports\Incomplete Documents]]
+    </p>
+    <p style="text-align: justify;" data-mce-style="text-align: justify;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+        If you have any questions regarding your license application, I can be
+        reached by&nbsp; email at&nbsp;[EMAIL] or by telephone at [PHONE].
+        <br>
+        <br>
+    </p>
+    Sincerely,
+    <br>
+    <br>
+    <br>
+    [NAME_DISTINGUISHED]
+    <br>
+    [DEPARTMENT]
+    <br>
+    Bureau of Cannabis Control
+    <br>
+    <br>
+    cc: [NAME_FML#]
+    <p>
+    </p>
+</div>
+<span style="page-break-after: always;" data-mce-style="page-break-after: always;">&nbsp;</span>

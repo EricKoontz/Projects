@@ -1,0 +1,111 @@
+<!--FORMSCRIPT-->
+<div id="iz-custom-js">
+    $('div.bizname:empty').hide(); $('div.ownername:empty').hide(); $("#conditionexists").hide();
+    $("#reglicense").hide(); $("#provlicense").hide(); if ($.trim($("#conditionexists").html()).indexOf("Provisional")
+    &gt; 0) { $("#provlicense").show(); } else { $("#reglicense").show(); }
+    if ($("#ActivitySubReport").html().indexOf("No Results") &gt; 0) { $("#ActivitySubReport").hide();
+    }
+</div>
+<!--FORMSCRIPT-->
+<link href="http://www.bcc.ca.gov/clear/support_reports.css"
+rel="stylesheet">
+<table class="mce-item-table" style="width: 100%;" data-mce-selected="1">
+    <tbody>
+        <tr>
+            <td class="BCCNormal" style="width: 50%;">
+                <div class="const-bcc-agency">
+                </div>
+                <div class="const-bcc-address">
+                </div>
+                <div class="const-bcc-citystatezip">
+                </div>
+                <div class="const-bcc-phone">
+                </div>
+            </td>
+            <td align="right" class="auto-style1" valign="bottom">
+                RECEIPT NO: [TEMPLATE_ID]
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="top" colspan="2">
+                <center>
+                    <div class="logocontainer">
+                        <div class="logocontent">
+                            <br>
+                            <div id="conditionexists">
+                                [[Subreports\Provisional License Status]]
+                            </div>
+                            <div class="auto-style1" id="reglicense">
+                                License
+                            </div>
+                            <div class="auto-style1" id="provlicense">
+                                Provisional License
+                            </div>
+                            <br>
+                            <br>
+                            <div class="BCCBigBold">
+                                [RECORD_TYPE]
+                            </div>
+                            <br>
+                            <div id="ActivitySubReport">
+                                [[Subreports\License Activities]]
+                            </div>
+                        </div>
+                    </div>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%;">
+                <p class="BCCBold">
+                    LICENSE NO: [TEMPLATE_ID]
+                </p>
+            </td>
+            <td align="right" class="BCCBold" valign="bottom">
+                VALID UNTIL: [DATE_EXPIRATION]
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%;">
+                <p class="BCCBold">
+                    BUSINESS NAME:
+                </p>
+                <div class="BCCBold" id="bizname">
+                    [RECORD_NAME]
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <div class="BCCBold" id="ownername">
+                    [NAME_FML#]
+                </div>
+                <div class="BCCBold">
+                    [ADDR_PARTIAL]
+                </div>
+                <div class="BCCBold">
+                    [CITY], [STATE_] [ZIP]
+                </div>
+                <br>
+                <br>
+                <p>
+                </p>
+            </td>
+            <td align="right" class="BCCNormal" valign="bottom">
+                <p style="text-align: justify;">
+                    <br>
+                    In accordance to the provisions of Chapter 27 Section 30 of the Business
+                    and Professions Code, the individual names heron is issued a [RECORD_TYPE],
+                    and is subject to the laws and regulations of the Bureau of Cannabis Control.
+                    Every licensee shall notify the bureau in writing within 10 calendar days
+                    of any change to any item listed in the application.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" class="BCCNormal" valign="bottom" colspan="2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+</p>
