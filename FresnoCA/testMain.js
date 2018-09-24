@@ -1,0 +1,3 @@
+/**
+ * Test from main directory
+ */
