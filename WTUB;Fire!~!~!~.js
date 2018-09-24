@@ -1,3 +1,0 @@
-//WTUB:FIRE/*/*/*
-
-checkRecordAssignedUser();
